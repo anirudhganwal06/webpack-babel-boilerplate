@@ -1,0 +1,32 @@
+{
+  "name": "css-optimizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "minifier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudhganwal06/css-optimizer.git"
+  },
+  "author": "Anirudh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anirudhganwal06/css-optimizer/issues"
+  },
+  "homepage": "https://github.com/anirudhganwal06/css-optimizer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.6.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
